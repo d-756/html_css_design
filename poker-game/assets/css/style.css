@@ -1,0 +1,209 @@
+@font-face {
+    font-family: InterfaceBold;
+    src: url(../fonts/DaltonMaagInterFaceBold.ttf);
+}
+
+@font-face {
+    font-family: InterfaceRegular;
+    src: url(../fonts/DaltonMaagInterFace.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-light-grey {
+    background-color: #EFF3F5;
+}
+
+.rad-15 {
+  border-radius: 15px;
+}
+
+.pd-grid {
+    padding: 35px 27px;
+}
+
+.clear {
+    clear: both;
+}
+
+.main-contatiner {
+    width: 1320px;
+    height: 1250px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+header {
+    padding: 32px 0;
+}
+
+.header-row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .menu a:hover {
+    opacity: 0.7;
+} */
+
+.content-story {
+    position: relative;
+    height: 162px;
+}
+
+.content-story .arrows {
+    width: 40px;
+    height: 40px;
+    background: #eff3f5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #a8a8a8;
+}
+
+.content-story .arrows:hover {
+    cursor: pointer;
+    background-color: #4797eb;
+    color: white;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 90px;
+    left: -21px;
+}
+
+.right-arrow {
+    position: absolute;
+    top: 90px;
+    right: -21px;
+}
+
+.grid-title {
+    font-family: "InterfaceBold";
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.content-story-letters {
+    font-family: "InterfaceRegular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.bt-groups {
+    float: right;
+    padding: 31px 0;
+}
+
+.bt-groups a {
+    width: 178px;
+    height: 48px;
+    border: 1px solid #a8a8a8;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 48px;
+    font-family: "InterFaceBold";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #686868;
+}
+
+.bt-groups a:hover {
+    border: 1px solid #4797eb;
+    color: #4797eb;
+}
+
+.bt-groups a:last-child {
+    margin-left: 19px;
+}
+
+/* Team estimates */
+.team-estimates {
+    margin-bottom: 30px;
+}
+
+.team-estimates-content {
+    display: flow-root;
+}
+
+ul.team-list li.team-item {
+    width: 88px;
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+}
+
+li.team-item > span.username {
+    font-family: "InterFaceRegular";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.item-pic {
+    display: flex;
+    align-items: center;
+    width: 88px;
+    height: 120px;
+    background: #c6dcf4;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.item-number {
+    display: flex;
+    align-items: center;
+    width: 68.11px;
+    height: 100.99px;
+    margin: 0 auto;
+    background: url(../img/bg-img-estimate.png);
+}
+
+
+.item-number > span {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "InterFaceBold";
+    font-size: 38px;
+}
+
+a.btn-final-estimate {
+    display: flex;
+    width: 220px;
+    height: 50px;
+    border-radius: 25px;
+    background: #4797eb;
+    color: #ffffff;
+    font-family: "InterFaceBold";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+a.btn-final-estimate:hover {
+    background: #3686da;
+}
